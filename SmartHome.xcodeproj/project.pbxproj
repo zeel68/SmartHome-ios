@@ -51,9 +51,11 @@
 		601C85A42C3E9B3B00B2DFB0 /* SmartHome */ = {
 			isa = PBXGroup;
 			children = (
-				601C85A52C3E9B3B00B2DFB0 /* SmartHomeApp.swift */,
-				601C85A72C3E9B3B00B2DFB0 /* ContentView.swift */,
-				601C85A92C3E9B3D00B2DFB0 /* Assets.xcassets */,
+				601C85BF2C3E9FC800B2DFB0 /* Assets */,
+				601C85BE2C3E9FBA00B2DFB0 /* Models */,
+				601C85BD2C3E9FAF00B2DFB0 /* Views */,
+				601C85BC2C3E9FAB00B2DFB0 /* Helper */,
+				601C85BB2C3E9FA800B2DFB0 /* App */,
 				601C85AB2C3E9B3D00B2DFB0 /* Preview Content */,
 			);
 			path = SmartHome;
@@ -65,6 +67,44 @@
 				601C85AC2C3E9B3D00B2DFB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		601C85BB2C3E9FA800B2DFB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				601C85A52C3E9B3B00B2DFB0 /* SmartHomeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		601C85BC2C3E9FAB00B2DFB0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		601C85BD2C3E9FAF00B2DFB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				601C85A72C3E9B3B00B2DFB0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		601C85BE2C3E9FBA00B2DFB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		601C85BF2C3E9FC800B2DFB0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				601C85A92C3E9B3D00B2DFB0 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
